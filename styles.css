@@ -10,12 +10,12 @@
     margin: 0;
     padding: 0;
 }
-body{
+body,html{
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    height: 100vh;
     overflow-x: hidden;
+    position: relative;
 }
 h1{
     font-family: 'Barlow Condensed', sans-serif;
@@ -175,7 +175,7 @@ a:hover{
     }
     .background{
         border-bottom-left-radius: 5rem;
-        height: 60vh;
+        height: 70vh;
     }
     .wrapper{
         flex-direction: column-reverse;
@@ -200,7 +200,7 @@ a:hover{
         width: 90%;
     }
     .wrapper .heading h3{
-        margin: 150px 0 50px 20px;
+        margin: 150px auto 50px 10px;
         font-size: 1rem;
         letter-spacing: 1px;
     }
